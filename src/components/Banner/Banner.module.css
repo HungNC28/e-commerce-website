@@ -1,0 +1,36 @@
+.Banner {
+  background-image: url("/public/image/banner1.jpg");
+  background-position: center;
+  background-size: cover;
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 2rem;
+}
+
+.BannerItem {
+  width: 20vw;
+}
+
+.BannerTitle {
+  color: #868e96;
+  font-style: italic;
+}
+
+.BannerSale {
+  font-size: 32px;
+  margin: 18px 0;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.BannerItem button {
+  background-color: #343338;
+  color: white;
+  font-style: italic;
+  font-size: 16px;
+  padding: 8px 16px;
+  border: none;
+  cursor: pointer;
+}

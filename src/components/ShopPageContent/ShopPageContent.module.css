@@ -1,0 +1,43 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+  height: 20vh;
+  background-color: #f1f3f5;
+}
+
+.Name1 {
+  font-size: 30px;
+  font-style: italic;
+}
+
+.Name2 {
+  color: #868e96;
+  font-style: italic;
+}
+
+.ShopPageContainer {
+  display: flex;
+}
+
+.ContentRight {
+  width: 100%;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.ContentRight form {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  height: 2rem;
+}
+
+.ContentRight form input {
+  width: 30%;
+}
+
+.ContentRight form select {
+  width: 20%;
+}

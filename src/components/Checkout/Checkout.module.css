@@ -1,0 +1,82 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 4rem;
+  height: 20vh;
+  background-color: #f1f3f5;
+}
+
+.Name1 {
+  font-size: 30px;
+  font-style: italic;
+}
+
+.Name2 {
+  display: flex;
+  gap: 4px;
+  font-style: italic;
+}
+
+.Name2P {
+  color: #868e96;
+}
+
+.CheckoutTitle {
+  font-size: 24px;
+  font-style: italic;
+}
+
+.CheckoutContent {
+  display: grid;
+  grid-template-columns: 70% 30%;
+  gap: 1rem;
+}
+
+.formCheckout {
+  font-style: italic;
+}
+
+.formCheckout input {
+  margin: 12px 0 16px 0;
+}
+
+.btnPlace {
+  width: 20%;
+  margin: 0;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.CheckoutOrder {
+  padding: 0 1rem;
+  background-color: #f1f3f5;
+  height: fit-content;
+}
+
+.CheckoutItem {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+  padding-bottom: 8px;
+  border-bottom: 1px solid #868e96;
+  gap: 1rem;
+}
+
+.CheckoutItem p,
+.CheckoutTotal p {
+  margin: 0;
+  font-style: italic;
+}
+
+.CheckoutTotal {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.SubPrice {
+  width: 100%;
+  color: #868e96;
+  text-align: end;
+}

@@ -1,0 +1,77 @@
+.ShopPageDetail {
+  display: flex;
+  align-items: center;
+}
+
+.ListProd {
+  width: 10%;
+}
+
+.ListProd img,
+.Prod img {
+  width: 100%;
+}
+
+.Prod {
+  width: 50%;
+  margin: 0 1rem;
+}
+
+.ProdInfor {
+  width: 50%;
+  font-style: italic;
+}
+
+.ProdName {
+  font-size: 30px;
+}
+
+.ProdPrice {
+  font-size: 18px;
+  color: #868e96;
+}
+
+.DescInfor {
+  color: #868e96;
+  line-height: 1.5;
+}
+
+.InputDetail {
+  width: 40%;
+  padding: 0;
+  height: 2rem;
+}
+
+.BtnDetail {
+  padding: 10px;
+  background-color: black;
+  color: white;
+  border: none;
+  cursor: pointer;
+  align-content: center;
+  width: 30%;
+}
+
+.ProdDesc {
+  width: 60%;
+  font-style: italic;
+}
+
+.Desc {
+  background-color: black;
+  color: white;
+  padding: 12px 16px;
+  width: fit-content;
+}
+
+.ProdTitle {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.RelatedProd {
+  width: 50%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}

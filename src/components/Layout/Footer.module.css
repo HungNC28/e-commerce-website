@@ -1,0 +1,19 @@
+.Footer {
+  background-color: black;
+  color: white;
+  margin-top: 2rem;
+}
+
+.FooterContent {
+  display: flex;
+  justify-content: space-between;
+  padding: 4rem 1rem;
+  line-height: 1.7;
+  font-style: italic;
+}
+
+.FooterItem a {
+  text-decoration: none;
+  font-size: 12px;
+  color: #868e96;
+}

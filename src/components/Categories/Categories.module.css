@@ -1,0 +1,36 @@
+.Categories {
+  text-align: center;
+  margin-top: 2rem;
+}
+
+.CategoriesInfor {
+  font-style: italic;
+  color: #adb5bd;
+  margin: 0;
+}
+
+.CategoriesTitle {
+  font-style: italic;
+  font-size: 24px;
+  margin: 0;
+  margin-bottom: 1rem;
+}
+
+.Image {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+}
+
+.Img {
+  width: 50%;
+}
+
+.Img img {
+  cursor: pointer;
+  width: 100%;
+}
+
+.Image img:hover {
+  opacity: 0.5;
+}

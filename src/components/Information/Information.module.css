@@ -1,0 +1,54 @@
+.Infor1 {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f8f9fa;
+  padding: 2rem 6rem;
+  margin-top: 2rem;
+}
+
+.Infor1ItemTitle {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.Infor1 p {
+  color: #868e96;
+  font-style: italic;
+  margin: 0;
+}
+
+.Infor2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.Infor2ItemTitle {
+  font-size: 18px;
+  font-style: italic;
+}
+
+.Infor2Item p {
+  color: #868e96;
+  font-style: italic;
+  margin: 0;
+}
+
+.Infor2ItemInput {
+  width: 50%;
+  display: flex;
+}
+
+.Infor2ItemInput input {
+  height: 3rem;
+  padding-left: 12px;
+  width: 100%;
+}
+
+.Infor2ItemInput button {
+  border: none;
+  padding: 12px 14px;
+  background-color: #343338;
+  color: white;
+}

@@ -1,0 +1,16 @@
+.ProductsListTitle1 {
+  color: #868e96;
+  font-style: italic;
+  margin: 0;
+}
+
+.ProductsListTitle2 {
+  font-size: 18px;
+  font-style: italic;
+  margin-bottom: 1rem;
+}
+
+.ProductsList {
+  display: grid;
+  grid-template-columns: 25% 25% 25% 25%;
+}

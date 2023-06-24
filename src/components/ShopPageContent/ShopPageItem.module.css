@@ -1,0 +1,19 @@
+.ShopPageItem img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.ShopPageItem img:hover {
+  opacity: 0.5;
+}
+
+.Name {
+  text-align: center;
+  font-style: italic;
+}
+
+.Price {
+  text-align: center;
+  font-style: italic;
+  color: #868e96;
+}

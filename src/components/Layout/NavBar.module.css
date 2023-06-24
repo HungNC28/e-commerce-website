@@ -1,0 +1,39 @@
+.NavBarList {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  align-items: center;
+  margin: 0 auto;
+  font-style: italic;
+  padding: 0 1rem;
+}
+
+.NavBarList a {
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+.NavBarLeft,
+.NavBarRight {
+  display: flex;
+  gap: 1rem;
+}
+
+.NavBarLeft a:active {
+  color: #e0b875;
+}
+
+.NavBarRight li a {
+  display: flex;
+  align-items: center;
+}
+
+.LoginLogout {
+  display: flex;
+  gap: 1rem;
+}
+
+.Logout {
+  cursor: pointer;
+}

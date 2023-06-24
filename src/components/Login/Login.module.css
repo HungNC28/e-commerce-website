@@ -1,0 +1,63 @@
+.Login {
+  background-image: url("/public/image/banner1.jpg");
+  background-position: center;
+  background-size: cover;
+  padding: 4rem;
+}
+
+.LoginTitle {
+  font-size: 32px;
+  font-style: italic;
+  padding: 4rem 0;
+  margin: 0;
+}
+
+.LoginContent {
+  width: 40%;
+  background-color: white;
+  text-align: center;
+  border-radius: 8px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 0 2rem;
+  margin: auto;
+}
+
+form input {
+  width: 100%;
+  padding: 12px 0;
+}
+
+form button {
+  width: 100%;
+  margin-top: 2rem;
+  color: white;
+  background-color: #343338;
+  padding: 12px 0;
+  border: none;
+}
+
+.btnLogin {
+  cursor: pointer;
+}
+
+.question {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 0;
+  font-style: italic;
+}
+
+.question p {
+  color: #868e96;
+}
+
+.question a {
+  text-decoration: none;
+  color: blue;
+}
+
+.errorMessage {
+  color: red;
+  margin-bottom: 1rem;
+}
